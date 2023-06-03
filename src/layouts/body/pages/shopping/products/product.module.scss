@@ -1,0 +1,154 @@
+.product {
+
+    width: 270px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 20px;
+
+    .header {
+        .favourite {
+            position: absolute;
+            right: 10px;
+            top: 7px;
+
+            .icon {
+                font-size: 18px;
+                cursor: pointer;
+            }
+        }
+
+        .img {
+            width: 100%;
+            aspect-ratio: 1;
+            border-radius: 15px;
+
+        }
+    }
+
+    .body {
+        .crud {
+            display: flex;
+            justify-content: right;
+
+            .deleteIcon {
+                border: 0;
+                outline: none;
+                background-color: transparent;
+                border: 0.5px solid black;
+                padding: 5px 15px;
+                border-radius: 10px;
+                margin-right: 10px;
+
+                &:hover {
+                    color: white;
+                    background-color: red;
+                }
+            }
+
+
+            .editIcon {
+                border: 0;
+                outline: none;
+                background-color: transparent;
+                border: 0.5px solid black;
+                padding: 5px 15px;
+                border-radius: 10px;
+                margin-right: 10px;
+
+                &:hover {
+                    color: white;
+                    background-color: blue;
+                }
+            }
+
+            .addIcon {
+                color: green;
+                border: 0;
+                outline: none;
+                background-color: transparent;
+                border: 0.5px solid black;
+                padding: 5px 15px;
+                border-radius: 10px;
+
+                &:hover {
+                    color: white;
+                    background-color: green;
+                }
+
+            }
+
+            .delete {
+                border: 0;
+
+            }
+
+            .del {
+                border: 0.5px solid black;
+                border-radius: 15px;
+                padding: 0 5px;
+                display: flex;
+                justify-content: space-around;
+
+                .delIcon {
+                    height: 100%;
+                }
+
+                .quanlityTools {
+                    border: 0;
+                    background-color: transparent;
+                }
+            }
+        }
+
+    }
+}
+
+.container {
+    position: relative;
+}
+
+.createProduct {
+    color: black;
+}
+
+.unlike {
+    color: black;
+}
+
+.like {
+    color: red;
+}
+
+
+@media only screen and (max-width: 739px) {
+    .product {
+        width: 70px;
+
+        .header {
+            position: relative;
+            .favourite {
+                position: absolute;
+                right: 7%;
+                top: -10%;
+                .icon {
+                    font-size: 6px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .body{
+            p{
+                margin: 0;
+                margin-top: 3px;
+                font-size: 7px;
+            }
+            .crud{
+                .deleteIcon{
+                    color: black;
+                }
+            }
+        }
+    }
+
+}

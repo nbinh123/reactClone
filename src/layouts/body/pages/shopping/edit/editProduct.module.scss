@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+
+    .back {
+        position: fixed;
+        left: 4%;
+        top: 13%;
+        font-size: 30px;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: black;
+    }
+
+
+    //     .icon {
+    //         position: absolute;
+    //         left: 4%;
+    //         top: 13%;
+    //         font-size: 30px;
+    //         padding: 5px 10px;
+    //         cursor: pointer;
+    //         color: black;
+    //     }
+}

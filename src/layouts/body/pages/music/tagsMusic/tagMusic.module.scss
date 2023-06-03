@@ -1,0 +1,87 @@
+.tagMusic {
+    width: 250px;
+    text-align: left !important;
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.author {
+    font-size: 16px;
+}
+
+.listen {
+    background-color: #28A745;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.headphoneIcon {
+    color: black;
+}
+
+@media only screen and (max-width: 739px) {
+    .tagMusic {
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+        text-align: left !important;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 10px 10px;
+
+        &:nth-child(1) {
+            margin-top: 30px;
+        }
+
+        &:nth-child(2) {
+            margin-top: 30px;
+        }
+
+        &:nth-child(3) {
+            margin-top: 30px;
+        }
+    }
+
+    .name {
+        font-size: 7px;
+        margin: 0;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+
+    .author {
+        font-size: 6px;
+        margin: 0;
+        margin-bottom: 2.6px;
+    }
+
+    .listen {
+        background-color: #28A745;
+        padding: 3px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 7px;
+    }
+}

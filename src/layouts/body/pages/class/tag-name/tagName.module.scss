@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    .introduce{
+        display: flex; 
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p{
+                margin: 0;
+            }
+            .mars{
+                color: blue;
+            }
+            .venus{
+                color: red;
+            }
+        }
+        .avatar{
+            width: 100%;
+            display: flex;
+            justify-content: left;
+            .img{
+                width: 13%;
+                aspect-ratio: 1;
+                border-radius: 50%;
+            }
+        }
+    }
+}

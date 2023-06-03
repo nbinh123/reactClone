@@ -1,0 +1,21 @@
+.container{
+    padding: 15px;
+    width: 70px;
+    box-sizing: border-box;
+    aspect-ratio: 1;
+    border: 0.5px dashed blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 15px 50px;
+    color: black;
+    img{
+        position: absolute;
+        width: 70px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        opacity: 0.3;
+    }
+}

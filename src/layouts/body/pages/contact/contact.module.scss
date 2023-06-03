@@ -1,0 +1,66 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 10px 80px;
+    position: relative;
+}
+
+.dFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    
+    padding: 20px 70px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin-left: 50px;
+}
+
+.title{
+    flex: 1;
+}
+
+.img{
+    width: 200px;
+    aspect-ratio: 1.6;
+    border-radius: 50%;
+}
+
+//icon 
+.tag{
+    text-decoration: none !important;
+    .icon{
+        align-items: center;
+        font-size: 20px;
+        width: 100%;
+        padding: 10px 80px;
+        border: 1px solid black;
+        justify-content: left;
+        margin-top: 10px;
+        border-radius: 5px;
+        color: black;
+        text-decoration: none !important;
+        &:hover{
+            // background-color: dodgerblue;
+            background: linear-gradient(200deg, cornflowerblue, dodgerblue) ;
+            color: white;
+        }
+        .iconInside{
+            text-align: left;
+            line-height: 30px;
+            margin-right: 30px;
+            text-decoration: none;
+        }
+        
+    }
+    
+}

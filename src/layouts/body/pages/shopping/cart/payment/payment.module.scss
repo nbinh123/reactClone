@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 120px;
+
+    .show {
+        width: 100%;
+
+        thead {
+            th {
+                border: 0;
+            }
+        }
+
+        tbody {
+
+            color: #3d1460 !important;
+
+            .tr {
+
+
+                border: 0;
+
+                .nameProd {
+                    padding: 10px 0;
+                }
+
+                .priceProd {
+                    padding: 10px 0;
+                }
+
+                .quanlityProd {
+                    padding: 10px 0;
+                }
+
+                .totalPro {
+                    padding: 10px 0;
+                    position: relative !important;
+                }
+
+                .index {
+                    transform: translateY(0px);
+                }
+
+                &:last-child {
+                    border-bottom-left-radius: 15px !important;
+                    border-bottom-right-radius: 15px !important;
+                }
+            }
+        }
+    }
+}
+
+.total{
+    border: 0;
+}

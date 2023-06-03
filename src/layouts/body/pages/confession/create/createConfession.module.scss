@@ -1,0 +1,70 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        margin-top: 10px;
+    }
+
+    .back {
+        position: fixed;
+        top: 13%;
+        left: 4%;
+        font-size: 30px;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: black;
+
+        button {
+            border: 0;
+            background-color: transparent;
+        }
+    }
+
+    .form {
+        flex: 1;
+        padding: 0 120px;
+        .info{
+            display: flex;
+            textarea {
+                width: 650px;
+                height: 400px;
+                padding: 10px 20px;
+                border: 0;
+                outline: none;
+                border-radius: 10px;
+                font-size: 22px;
+                background-color: transparent;
+                border: 0.5px solid black;
+                background-image: url("https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-nen-tho-chibi.jpg");
+                background-size: cover;
+                opacity: 0.55;
+            }
+        }
+        .from{
+            input{
+                border: 0;
+                padding: 5px;
+                outline: none !important;
+                border-radius: 10px;
+                text-align: center;
+                color: BLACK;
+                
+            }   
+        }
+        .to{
+            input{
+                border: 0;
+                padding: 5px;
+                outline: none !important;
+                border-radius: 10px;
+                text-align: center;
+                color: BLACK;
+                
+            }       
+        }
+        
+    }
+}

@@ -1,0 +1,74 @@
+.container {
+    margin: 10px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 10px;
+
+    .img {
+        img {
+            aspect-ratio: 1;
+            width: 230px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+        }
+    }
+
+    .info {
+        .t{
+            display: flex;
+            justify-content: center;
+            p{
+                margin-left: 7px;
+                color: blueviolet;
+            }
+        }
+        .tools {
+            display: flex;
+            justify-content: right;
+
+            .deleteProduct {
+                color: black;
+                border: 0;
+                margin-right: 10px;
+                border-radius: 10px;
+                border: 0.5px solid black;
+                background-color: transparent;
+                padding: 0 13px;
+            }
+
+            .changeQuanlity {
+                margin: 0;
+                border-radius: 10px;
+                border: 0;
+                border: 0.5px solid black ;
+                color: black;
+                padding: 3px 7px;
+                .quanlityTools{
+                    border: 0;
+                    border-radius: 10px;
+                    background-color: transparent;
+                }
+            }
+
+            .submit{
+                color: black;
+                border: 0;
+                margin-left: 10px;
+                border-radius: 10px;
+                border: 0.5px solid black;
+                padding: 0 13px;
+            }
+        }
+    }
+}
+
+
+.bgTick{
+    background-color: green;
+    color: white !important;
+}
+
+.bgUnTick{
+    background-color: transparent;
+}

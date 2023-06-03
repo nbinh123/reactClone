@@ -1,0 +1,64 @@
+.container {
+    background-color: white;
+    border-bottom: 2px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    text-decoration: none;
+    padding: 7px 0;
+    box-shadow: 0 3px 13px blueviolet;
+
+    .index {
+        color: black;
+        flex: 3;
+        text-align: center;
+        p{
+            margin: 0;
+            display: inline-block;
+            padding: 5px 13px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            border: 0.5px solid black;
+        }
+    }
+
+    .tutor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        flex: 0.8;
+        text-align: center;
+        .icon{
+            color: lightseagreen;
+            text-align: center;
+        }
+        p{
+            margin: 0;
+            color: black;
+        }
+    }
+    .info{
+        flex: 8;
+        p{
+            text-decoration: none;
+            color: black;
+            margin: 0;
+            &:nth-child(2){
+                font-size: 10px;
+                
+            }
+        }
+        .icon{
+            color: black;
+            padding: 2.6px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: lightgreen;
+            font-size: 13.5px;
+
+        }
+    
+    }
+}

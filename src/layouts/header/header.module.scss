@@ -1,0 +1,234 @@
+.navBar {
+    width: 100%;
+    height: 9.195402298%;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 13px 0;
+}
+
+.tool {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+}
+
+
+.homepage {
+    margin-left: 20px;
+    flex: 0.1;
+}
+
+.tool2 {
+    flex: 2;
+}
+
+.tool3 {
+    flex: 1.5;
+}
+
+.mr {
+    margin-top: 10px;
+}
+
+.dFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.navBarColor {
+    background-color: black;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    flex: 1;
+    color: white;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.z {
+    &:hover {
+        color: red;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.searchInp {
+    width: 100%;
+    height: 37.33px;
+    outline: red;
+
+}
+
+.home {
+    font-size: 20px;
+}
+
+.submit {
+    width: 72.35px;
+    height: 37.33px;
+    margin-left: 10px;
+    color: #008000;
+    border: 0.0625em solid #008000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    padding: 0;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background-color: #008000;
+    }
+}
+
+.wrapper {
+    text-align: center;
+    width: 100%;
+    transform: translateY(0);
+    margin: 0;
+    background: transparent;
+    border: 0.0625em solid black;
+    border-radius: 10px;
+}
+
+.toolTips {
+    padding: 5px 20px !important;
+    border-bottom: 0.5px solid black;
+
+    &:first-child {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    &:last-child {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    &:hover {
+        opacity: 0.8s;
+        background: #2196f3;
+        box-shadow: 0.0625em 3px 3px white;
+        color: white;
+    }
+}
+
+.toolTag {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    flex: 1;
+    color: black;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.mobile{
+    display: none;
+}
+.pc{
+    display: block;
+}
+.change{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 739px) {
+    .homepage{
+        flex: 1.3;
+    }
+    .tool2{
+        display: none;
+    }
+    .navBar {
+        width: 100%;
+        height: 15.195402298%;
+        background-color: black;
+        color: white;
+        position: relative;
+        padding: 10px 0;
+    }
+    .profile{
+        display: none;
+        
+    }
+    .home{
+        font-size: 13px;
+    }
+    .mobile{
+        display: block;
+        .icon{
+            font-size: 25px;
+        }
+    }
+    .pc{
+        display: none;
+    }
+} 
+
+.userAvatar{
+    color: black;
+    margin-left: 20px;
+    cursor: pointer;
+    .img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}
+.userTool{
+    color: black;
+    border: 1px solid gray;
+    border-radius: 15px;
+    .userTippy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        cursor: pointer;
+        border-bottom: 1px solid black;
+        background-color: #fff; 
+        &:hover{
+            animation: opacities 1s 1 linear forwards;
+        }
+        .icon{
+            margin-right: 5px;
+        }
+    }
+}
+@keyframes opacities {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+        background-color: transparent;
+    }
+}

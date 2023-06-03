@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    .messageList{
+        margin: 0 120px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .create{
+        margin-top: 20px;
+    }
+}

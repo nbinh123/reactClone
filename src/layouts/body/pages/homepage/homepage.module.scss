@@ -1,0 +1,24 @@
+.homepage {
+    margin: 10px 150px;
+    text-align: left;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.title {
+    flex: 1;
+}
+
+@media only screen and (max-width: 739px) {
+    .homepage {
+        margin: 10px 30px;
+        text-align: left;
+        font-size: 12px;
+        h1{
+            text-align: center;
+            font-size: 22px;
+        }
+    }
+}

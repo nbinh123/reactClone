@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    margin: 10px 120px;
+
+    .form {
+        .name {
+            input{
+                outline: none;
+                width: 60%;
+                margin-top: 20px;
+                border-radius: 990px;
+                border: 0;
+                padding: 8px 10px;
+                text-align: center;
+            }
+        }
+
+        .author {
+            input{
+                outline: none;
+                width: 60%;
+                margin-top: 20px;
+                border-radius: 990px;
+                border: 0;
+                padding: 8px 10px;
+                text-align: center;
+            }
+        }
+
+        .link {
+            input{
+                outline: none;
+                width: 60%;
+                margin-top: 20px;
+                border-radius: 990px;
+                border: 0;
+                padding: 8px 10px;
+                text-align: center;
+            }
+        }
+    }
+    .addBtn{
+        margin-top: 20px;
+        button{
+            border: 0;
+            border-radius: 999px;
+            padding: 10px 20px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.dFlex {
+    display: flex;
+}
+
+.body {
+    width: 100%;
+    height: auto;
+    // background: linear-gradient(to right, #a65499, #f36bab, #f39bb2, #f3b3b4, #f4d1b6);
+    background-image: url("https://hieusach24h.com//wp-content//uploads//2021//09//bg-scaled.jpg");
+    background-size: cover;
+   
+}
+
+.main {
+    flex: 1;
+    min-height: 90vh;
+    text-align: center;
+    position: relative;
+}
+
+@media only screen and (max-width: 739px) {
+    .main {
+        min-height: 95vh;
+    }
+
+
+}

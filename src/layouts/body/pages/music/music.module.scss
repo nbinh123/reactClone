@@ -1,0 +1,109 @@
+.music {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 80px;
+    overflow: auto;
+}
+
+.title {
+    flex: 1;
+}
+
+.container {
+    .tools {
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -20px;
+        margin-top: 10px;
+
+        .add {
+            button {
+                border: 0;
+                background-color: transparent;
+                border: 0.5px solid black;
+                border-radius: 9999px;
+                padding: 8px 13px;
+                margin-right: 10px;
+            }
+
+        }
+
+        .search {
+            button {
+                border: 0;
+                background-color: transparent;
+                border: 0.5px solid black;
+                border-radius: 9999px;
+                padding: 8px 13px;
+                margin-left: 10px;
+            }
+
+        }
+
+        .searchInput {
+            input {
+                border: 0;
+                outline: none;
+                background-color: aliceblue;
+                padding: 8px 13px;
+                border-radius: 999px;
+                width: 400px;
+            }
+        }
+    }
+}
+
+
+.tag {
+    width: 400px;
+}
+
+@media only screen and (max-width: 739px) {
+    .container {
+        width: 100%;
+        .tools {
+            align-items: center;
+            .add {
+                flex: 1;
+                color: black;
+                font-size: 12px;
+                padding: 0;
+                input{
+                    margin: 0;
+                }
+            }
+
+            .searchInput {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                font-size: 12px;
+                
+                input{
+                    width: 100%;
+                    padding: 5px 5px;
+                }
+            }
+
+            .search {
+                flex: 1;
+                color: black;
+                font-size: 12px;
+                padding: 0;
+                input{
+                    margin: 0;
+                
+                }
+            }
+        }
+
+        .music {
+            margin: 0;
+        }
+    }
+}

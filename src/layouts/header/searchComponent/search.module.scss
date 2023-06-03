@@ -1,0 +1,143 @@
+.searchResult {
+    width: 425px;
+    padding: 13px 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    &:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: 0;
+        border-bottom: 0.5px solid black;
+    }
+    .fl1{
+        flex: 1;
+    }
+    p {
+        margin: 0;
+        line-height: 16px;
+        transform: translateY(-0.5px);
+    }
+    .name{
+        display: flex;
+        flex: 8;
+        justify-content: left;
+        .username{
+            font-size: 13px;
+        }
+        margin-left: 20%;
+    }
+    .img{
+        height: 30px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.deleteBtn{
+    position: absolute;
+    transform: translateX(400px);
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+.info{
+    text-decoration: none !important;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+//copy từ header
+.tools {
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    flex: 1;
+    color: white;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.search {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.searchInp {
+    width: 100%;
+    height: 37.33px;
+    outline: red;
+}
+
+.searchInp:not(:placeholder-shown) ~ .submit{
+    color: white;
+}
+
+.submit {
+    width: 72.35px;
+    height: 37.33px;
+    margin-left: 10px;
+    color: #008000;
+    border: 0.0625em solid #008000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    padding: 0;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background-color: #008000;
+    }
+}
+
+@media only screen and (max-width: 739px) {
+    .search{
+        color: black;
+        flex: 3;
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .searchInp{
+        height: 100%;
+    }
+    .submit{
+        width: 50%;
+        height: 100%;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 250px;
+    .delete{
+        position: fixed;
+        top: 13%;
+        right: 7%;
+        padding: 10px 20px;
+    }
+    .header{
+        padding: 20px 0;
+        width: 780px;
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid black;
+        border-radius: 10px;
+        .from{
+            flex: 1;
+            p{
+                font-size: 20px;
+            }
+        }
+        .icon{
+            flex: 1.7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            .envelop{
+                position: absolute;
+                font-size: 39px;
+                padding: 0 5px;
+                top: -17px;
+                path{
+                    padding: 0 5px;
+                }
+            }
+            .minus{
+                margin-right: -2px;
+                transform: translateY(8px);
+            }
+        }
+        .to{
+            flex: 1;
+            p{
+                font-size: 20px;
+            }
+        }
+        p{
+            margin: 0;
+        }
+    }
+
+    .body{
+        padding: 20px 0;
+        width: 780px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px 50px;
+    }
+    
+}

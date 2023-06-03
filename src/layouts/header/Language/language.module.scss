@@ -1,0 +1,69 @@
+.bars {
+    // margin-right: 20px;
+    cursor: pointer;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+
+.iconBars {
+    font-size: 20px;
+}
+
+.backBtn {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: auto;
+}
+
+.languages {
+    border: 1px solid black;
+}
+
+.name {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tool {
+    color: black;
+    border: 0.5px solid black;
+    padding: 0 20px;
+    display: flex;
+    align-items: center ;
+
+    p {
+        transform: translateY(30%);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.language{
+    cursor: pointer;
+}
+@media only screen and (max-width: 739px) {
+    .language{
+        display: none;
+    }
+    .bars{
+        display: none;
+    }
+}
